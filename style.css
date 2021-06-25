@@ -78,3 +78,18 @@ article section:last-child {
 section:last-child a{
     color : hsl(179, 100%, 13%);
 }
+
+
+/* Responsive */
+
+@media (max-width: 848px){
+    body {
+        height: auto;
+        padding: 2em 0;
+        box-sizing: border-box;
+    }
+
+    article {
+        flex-direction: column;
+    }
+}
