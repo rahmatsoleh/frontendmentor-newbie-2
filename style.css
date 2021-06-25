@@ -93,3 +93,29 @@ section:last-child a{
         flex-direction: column;
     }
 }
+
+@media (max-width: 288px){
+    
+    article section {
+        padding: 1.5em 1.5em 2em;
+    }
+
+    article section img {
+        margin-right: 5px;
+    }
+
+    article section h3 {
+        font-size: 2em;
+        display: inline-block;
+    }
+    
+    article section p {
+        font-size: 12px;
+        margin: -2em 0 3.5em;
+    }
+
+    article section a {
+        padding: .5em 1em;
+        font-size: .8em;
+    }
+}
