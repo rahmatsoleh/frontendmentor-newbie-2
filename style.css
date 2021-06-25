@@ -55,26 +55,26 @@ article section a:hover {
 }
 
 
-.sedans {
+article section:first-child {
     background-color: hsl(31, 77%, 52%);
 }
 
-.sedans a {
+section:first-child a {
     color: hsl(31, 77%, 52%);
 }
 
-.suvs {
+article section:nth-child(2) {
     background-color: hsl(184, 100%, 22%);
 }
 
-.suvs a {
+section:nth-child(2) a {
     color: hsl(184,100%,22%);
 }
 
-.luxury {
+article section:last-child {
     background-color: hsl(179, 100%, 13%);
 }
 
-.luxury a{
+section:last-child a{
     color : hsl(179, 100%, 13%);
 }
